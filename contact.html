@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a class="header__logo" href="/">
+          <img src="assets/img/logo.svg" width="127" height="48" alt="Логотип">
+        </a>
+        <nav class="header__nav">
+          <a class="header__link" href="#">Home</a>
+          <a class="header__link" href="#">Features</a>
+          <a class="header__link" href="#">Prices</a>
+          <a class="header__link" href="#">Support</a>
+        </nav>
+        <a class="header__get" href="#">Get Findro</a>
+        <button class="header__burger">
+          <img src="assets/img/header-burger.svg" width="24" height="24" alt="Open menu">
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="header-mobile">
+      <div class="header-mobile__top">
+        <a class="header__logo" href="/">
+          <img src="assets/img/logo.svg" width="127" height="48" alt="Logo">
+        </a>
+        <button class="header-mobile__close">
+          <img src="assets/img/header-close.svg" width="24" height="24" alt="Close menu">
+        </button>
+      </div>
+      <div class="header-mobile__middle">
+        <nav class="header-mobile__nav">
+          <a class="header-mobile__link" href="#">Home</a>
+          <a class="header-mobile__link" href="#">Features</a>
+          <a class="header-mobile__link" href="#">Prices</a>
+          <a class="header-mobile__link" href="#">Support</a>
+          <a class="header-mobile__link" href="mailto:support@findro.com">support@findro.com</a>
+        </nav>
+      </div>
+      <div class="header-mobile__align">
+        <a class="header-mobile__get" href="#">Get Findro</a>
+      </div>
+  </div>
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb__list">
+        <a class="breadcrumb__link" href="#">Home</a>
+        <a class="breadcrumb__separate" href="#">/</a>
+        <span class="breadcrumb__last">Support</span>
+      </div>
+    </div>
+  </div>
+  <section class="contacts">
+    <div class="container">
+      <div class="contacts__block">
+        <div class="contacts__left">
+          <h1 class="contacts__title">Contact us</h1>
+          <img class="contacts__image mobile" src="assets/img/contacts-image.webp" width="486" height="600" loading="lazy" alt="Picture">
+          <form class="contacts__form" action="/">
+            <label class="contacts__label">Your email address</label>
+            <div class="contacts__item">
+              <input class="contacts__input" name="email" type="email">
+              <div class="contacts__error">Error text</div>
+            </div>
+            <label class="contacts__label">Name</label>
+            <div class="contacts__item">
+              <input class="contacts__input" name="name" type="text">
+              <div class="contacts__error">Error text</div>
+            </div>
+            <label class="contacts__label">Message</label>
+            <textarea class="contacts__textarea" name="comment"></textarea>
+            <button class="contacts__button">
+              <img class="contacts__ok" src="assets/img/contacts-ok.svg" width="20" height="20" alt="OK">
+              <span class="contacts__inner">Submit</span>
+            </button>
+            <p class="contacts__bottom">By clicking the «Submit» button, you agree to our <a class="contacts__link" href="#">Terms</a> of Use and <a class="contacts__link" href="#">Privacy Policy</a></p>
+          </form>
+        </div>
+        <img class="contacts__image" src="assets/img/contacts-image.webp" width="486" height="600" loading="lazy" alt="Picture">
+      </div>
+    </div>
+  </section>
+  <div class="support">
+    <div class="container">
+      <div class="support__block">
+        <img class="support__icon" src="assets/img/support-icon.svg" width="48" height="48" alt="Email">
+        <p class="support__text">For support related queries please contact us via the form above, or email directly at <a class="support__link" href="mailto:support@findro.com">support@findro.com</a></p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <h2 class="footer__title">Download Findro</h2>
+      <p class="footer__text">Works on both Android Phones and iPhones</p>
+      <div class="footer__middle">
+        <a class="footer__link" href="#" target="_blank">
+          <img class="footer__logo" src="assets/img/footer-appstore.webp" width="189" height="56" loading="lazy" alt="App store">
+        </a>
+        <a class="footer__link" href="#" target="_blank">
+          <img class="footer__logo" src="assets/img/footer-googleplay.webp" width="188" height="56" loading="lazy" alt="Google play">
+        </a>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">Copyright © 2025 Geozilla. All rights reserved.</p>
+        <div class="footer__right">
+          <div class="footer__links">
+            <a class="footer__link" href="#">Privacy</a>
+            <a class="footer__link" href="#">Terms</a>
+          </div>
+          <div class="footer__socials">
+            <a class="footer__social" href="#" target="_blank"></a>
+            <a class="footer__social" href="#" target="_blank"></a>
+            <a class="footer__social" href="#" target="_blank"></a>
+            <a class="footer__social" href="#" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
